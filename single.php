@@ -30,10 +30,12 @@
     foreach (get_comments($args) as $comment){ ?>
       <div class="row border-top">
         <div class="col-md-4">
-          <p><?php echo $comment->comment_author; ?></p>
+          <p class="p-2"><?php echo $comment->comment_author; ?></p>
         </div>
         <div class="col-md-8">
-          <?php echo $comment->comment_content; ?>
+          <p class="p-2">
+            <?php echo $comment->comment_content; ?>
+          </p>
         </div>
       </div>
     <?php } ?>
