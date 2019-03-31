@@ -1,28 +1,46 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<?php  get_header(); ?>
-</head>
-<body>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12">
-				<h1>Hello World</h1>
+<?php get_header(); ?>
+	<div class="container secondary-background">
+		<?php for($i = 0; $i < 4; $i++){ ?>
+			<div class="row border-top">
+				<div class="col-md-3">
+					<h4 class="text-light m-0 text-left pt-4 pl-5 pb-4 pr-4">
+						<a href="/hello-world" class="text-dark">
+							Link
+						</a>
+					</h4>
+				</div>
+				<div class="col-md-9">
+					<h4 class="text-light m-0 text-left pt-4 pl-5 pb-4 pr-4">
+						<a href="/hello-world" class="text-light">
+								Create your blog and share your voice in minutes.
+						</a>
+					</h4>
+				</div>
 			</div>
-		</div>
-	</div>
-	<div class="container">
-	 <div class="row">
-			<div class="col-md-4 offset-md-4">
-				<h3>Hello World</h3>
-				<p><?php echo get_template_directory_uri() . '/assets/css/bootstrap.css' ?></p>
-				<a href="/testomg">Error</a>
+			<div class="row border-top">
+				<div class="col-md-3">
+					<h4 class="text-light m-0 text-left pt-4 pl-5 pb-4 pr-4">Discussion</h4>
+				</div>
+				<div class="col-md-9">
+					<h4 class="text-light m-0 text-left pt-4 pl-5 pb-4 pr-4">
+						<a href="/hello-world" class="text-light">
+							What are some CSS design patterns you use on a daily basis?
+						</a>
+					</h4>
+				</div>
 			</div>
-		</div>
+			<div class="row border-top">
+				<div class="col-md-3">
+					<h4 class="text-light m-0 text-left pt-4 pl-5 pb-4 pr-4">Article</h4>
+				</div>
+				<div class="col-md-9">
+					<h4 class="text-light m-0 text-left pt-4 pl-5 pb-4 pr-4">
+						<a href="/hello-world" class="text-light">
+							5 Reasons Why Wordress is Better than Ghost
+						</a>
+					</h4>
+				</div>
+			</div>
+		<?php } ?>
 	</div>
-
 <?php get_footer(); ?>
-</body>
-</html>

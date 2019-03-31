@@ -1174,6 +1174,14 @@ a.text-dark:hover,a.text-dark:focus{color:#121416 !important}
 .text-reset{color:inherit !important}
 .visible{visibility:visible !important}
 .invisible{visibility:hidden !important}
+h1,h2,h3,h4,h5{font-family:'Poppins',sans-serif}
+body{font-family:'Roboto',sans-serif}
+.primary-background{background-color:#f25f5c}
+.secondary-background{background-color:#727072}
+.tertiary-background{background-color:#95a3b3}
+.primary-color{color:#f25f5c}
+.secondary-color{color:#727072}
+.tertiary-color{color:#95a3b3}
 @media screen and (prefers-reduced-motion:reduce){.form-control{-webkit-transition:none;transition:none}
 .btn{-webkit-transition:none;transition:none}
 .fade{-webkit-transition:none;transition:none}
