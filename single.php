@@ -9,12 +9,6 @@
       </h4>
     </div>
   </div>
-  <?php
-
-  echo wp_unslash(get_the_permalink($post_id));
-
-
-   ?>
   <div class="row mt-5">
     <div class="col-md-6 offset-md-3 text-center">
       <form method="POST" action="<?php echo esc_url( admin_url('admin-post.php') ); ?>">
@@ -30,5 +24,18 @@
       </form>
     </div>
   </div>
-</div>
+  <div class="container ">
+    <?php
+    $args = array('post_id' => get_the_ID());
+    foreach (get_comments($args) as $comment){ ?>
+      <div class="row border-top">
+        <div class="col-md-4">
+          <p><?php echo $comment->comment_author; ?></p>
+        </div>
+        <div class="col-md-8">
+          <?php echo $comment->comment_content; ?>
+        </div>
+      </div>
+    <?php } ?>
+  </div>
 <?php get_footer(); ?>

@@ -35,7 +35,7 @@
 				</div>
 				<div class="col-md-9">
 					<h4 class="text-light m-0 text-left pt-4 pl-5 pb-4 pr-4">
-						<a href="http://wpdevsforum.local/uncategorized/create-your-blog-and-share-your-voice-in-minutes/" class="text-light">
+						<a href="http://wpdevsforum.local/uncategorized/5-reasons-why-wordress-is-better-than-ghost/" class="text-light">
 							5 Reasons Why Wordress is Better than Ghost
 						</a>
 					</h4>
