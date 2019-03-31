@@ -9,15 +9,23 @@
       </h4>
     </div>
   </div>
+  <?php
+
+  echo wp_unslash(get_the_permalink($post_id));
+
+
+   ?>
   <div class="row mt-5">
     <div class="col-md-6 offset-md-3 text-center">
       <form method="POST" action="<?php echo esc_url( admin_url('admin-post.php') ); ?>">
-        <input type="hidden" name="action" value="add_new_comment">
+        <input type="hidden" name="action" value="add_new_perspective">
+        <input type="hidden" name="post_id" value="<?php echo get_the_ID(); ?>">
+        <input type="hidden" name="user_id" value="<?php echo get_current_user_id(); ?>">
         <div class="form-group">
-          <textarea name="name" rows="8" cols="80" class="form-control"></textarea>
+          <textarea name="perspective" rows="8" cols="80" class="form-control"></textarea>
         </div>
         <div class="form-group">
-          <button type="button" name="button" class="btn btn-primary">Add New Perspective</button>
+          <button type="submit" name="button" class="btn btn-primary">Add New Perspective</button>
         </div>
       </form>
     </div>

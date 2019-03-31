@@ -4,14 +4,14 @@
 			<div class="row border-top">
 				<div class="col-md-3">
 					<h4 class="text-light m-0 text-left pt-4 pl-5 pb-4 pr-4">
-						<a href="/hello-world" class="text-dark">
+						<a href="http://wpdevsforum.local/uncategorized/create-your-blog-and-share-your-voice-in-minutes/" class="text-dark">
 							Link
 						</a>
 					</h4>
 				</div>
 				<div class="col-md-9">
 					<h4 class="text-light m-0 text-left pt-4 pl-5 pb-4 pr-4">
-						<a href="/hello-world" class="text-light">
+						<a href="http://wpdevsforum.local/uncategorized/create-your-blog-and-share-your-voice-in-minutes/" class="text-light">
 								Create your blog and share your voice in minutes.
 						</a>
 					</h4>
@@ -23,7 +23,7 @@
 				</div>
 				<div class="col-md-9">
 					<h4 class="text-light m-0 text-left pt-4 pl-5 pb-4 pr-4">
-						<a href="/hello-world" class="text-light">
+						<a href="http://wpdevsforum.local/uncategorized/create-your-blog-and-share-your-voice-in-minutes/" class="text-light">
 							What are some CSS design patterns you use on a daily basis?
 						</a>
 					</h4>
@@ -35,7 +35,7 @@
 				</div>
 				<div class="col-md-9">
 					<h4 class="text-light m-0 text-left pt-4 pl-5 pb-4 pr-4">
-						<a href="/hello-world" class="text-light">
+						<a href="http://wpdevsforum.local/uncategorized/create-your-blog-and-share-your-voice-in-minutes/" class="text-light">
 							5 Reasons Why Wordress is Better than Ghost
 						</a>
 					</h4>
