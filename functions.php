@@ -93,3 +93,11 @@ function add_new_perspective(){
 	exit();
 
 }
+
+function check_comment_length(string $comment){
+	if(strlen($comment) === 500){
+		return true;
+	} else {
+		return false;
+	}
+}

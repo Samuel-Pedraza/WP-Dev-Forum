@@ -14,6 +14,8 @@
 						</a>
 					</h1>
 					<p class=" pl-5 text-light">Focused WordPress Development</p>
+					<a href="/new">Add New Posts</a>
+					<a href="/profile" class="tertiary-color">View Profile</a>
 				</div>
 			</div>
 		</div>
