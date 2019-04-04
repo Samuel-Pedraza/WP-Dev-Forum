@@ -29,13 +29,11 @@
     $args = array('post_id' => get_the_ID());
     foreach (get_comments($args) as $comment){ ?>
       <div class="row border-top">
-        <div class="col-md-4">
-          <p class="p-2"><?php echo $comment->comment_author; ?></p>
-        </div>
-        <div class="col-md-8">
-          <p class="p-2">
+        <div class="col-md-12">
+          <p class="p-3 my-3">
             <?php echo $comment->comment_content; ?>
           </p>
+          <h5 class="p-3 my-3">- By <?php echo ($comment->comment_author ? $comment->comment_author : "Anonymous");  ?> </h5>
         </div>
       </div>
     <?php } ?>

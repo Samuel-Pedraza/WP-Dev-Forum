@@ -74,14 +74,14 @@ add_action("admin_post_add_new_perspective", "add_new_perspective");
 function add_new_perspective(){
 	global $post;
 	$perspective = $_POST["perspective"];
-	$user_id = $POST["user_id"];
-	$post_id = $POST["post_id"];
+	$user_id = $_POST["user_id"];
+	$post_id = $_POST["post_id"];
 
 	$commentdata = array(
 	'comment_post_ID' => $post_id, // to which post the comment will show up
 	'comment_content' => $perspective, //fixed value - can be dynamic
 	'comment_type' => '', //empty for regular comments, 'pingback' for pingbacks, 'trackback' for trackbacks
-	'comment_parent' => $post_id, //0 if it's not a reply to another comment; if it's a reply, mention the parent comment ID here
+	'comment_parent' => 0, //0 if it's not a reply to another comment; if it's a reply, mention the parent comment ID here
 	'user_id' => $user_id, //passing current user ID or any predefined as per the demand
 	);
 
